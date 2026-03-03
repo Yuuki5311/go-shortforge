@@ -1,0 +1,14 @@
+bin/
+build/
+dist/
+*.exe
+*.test
+*.out
+.DS_Store
+.env
+.env.*
+.idea/
+.vscode/
+*.swp
+*.log
+data/

@@ -1,0 +1,18 @@
+title = "shorturl demo config"
+
+[server.http]
+port = 8080
+mode = "release"
+
+[mysql.default]
+dialect = "mysql"
+debug = true
+dsn = "root:123456789Lin@tcp(127.0.0.1:3307)/ego_short?charset=utf8mb4&parseTime=True&loc=Local&timeout=1s&readTimeout=3s&writeTimeout=3s"
+
+[redis.default]
+addr = "127.0.0.1:6379"
+db = 0
+readTimeout = "500ms"
+writeTimeout = "500ms"
+slowLogThreshold = "500ms"
+
