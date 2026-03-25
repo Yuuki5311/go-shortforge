@@ -86,9 +86,4 @@ API 文档
 
 压测（ab）
 - 文档与命令：docs/ab.md
-- 示例（需已启动服务）：
-  - 单个生成：ab -n 1000 -c 50 -p scripts\payloads\single.json -T application/json http://127.0.0.1:8080/api/links
-  - 查询：ab -n 2000 -c 100 http://127.0.0.1:8080/api/links/<CODE>
-  - 删除：ab -n 500 -c 50 -m DELETE http://127.0.0.1:8080/api/links/<CODE>
-  - 批量：ab -n 200 -c 20 -p scripts\payloads\batch.json -T application/json http://127.0.0.1:8080/api/links/batch
-- Windows 可通过 WSL 或安装 httpd 工具包使用 ab
+
